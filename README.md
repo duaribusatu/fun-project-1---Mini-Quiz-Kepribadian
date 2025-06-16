@@ -34,7 +34,9 @@ Make sure you have Python 3.8+ installed. Then install Streamlit:
 bash
 Copy
 Edit
+```bash
 pip install streamlit
+``` 
 3. Launch the app
 bash
 Copy
