@@ -1,62 +1,47 @@
-fun-project-1 --- 🧠 Mini Kuis Profesi by Dandi
+# Fun-project-1 --- 🧠 Mini Kuis Profesi by Dandi
 
 A fun and interactive quiz app built using Streamlit to help users discover which profession suits them best — Programmer, Designer, Data Scientist, or even a Startup Founder!
 
-🚀 Main Features
+# 🚀 Main Features
 1. Modern and clean UI with per-question navigation
 2. Interactive radio buttons to select answers
+3. Auto-result based on highest score calculation
+4. Animated GIFs and fun facts for each profession result
+5. Option to restart the quiz anytime
 
-Single Submit action at the end, not per question
-
-Auto-result based on highest score calculation
-
-Animated GIFs and fun facts for each profession result
-
-Option to restart the quiz anytime
-
-🗂️ File Structure
-bash
-Copy
-Edit
+# 🗂️ File Structure
+```bash
 ├── kuis_profesi.py        # Main Streamlit app
 ├── quiz_data.json         # Quiz data (questions and options)
 └── README.md              # This documentation
-🔧 How to Run
+```
+
+# 🔧 How to Run
 1. Clone the repository
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/username/kuis-profesi-dandi.git
 cd kuis-profesi-dandi
+```
+
 2. Install dependencies
 Make sure you have Python 3.8+ installed. Then install Streamlit:
-
-bash
-Copy
-Edit
 ```bash
 pip install streamlit
 ``` 
 3. Launch the app
-bash
-Copy
-Edit
-streamlit run kuis_profesi.py
+```bash
+streamlit run app.py
+```
 The app will open in your browser at:
-
-arduino
-Copy
-Edit
+```bash
 http://localhost:8501
-📄 quiz_data.json Format
+```
+
+# 📄 quiz_data.json Format
 This file contains the list of questions, explanations, and answer options. Each option maps to a profession category.
 
 Example:
-
-json
-Copy
-Edit
-[
+```[
   {
     "question": "What do you enjoy the most?",
     "information": "Choose the option that best describes you",
@@ -68,16 +53,17 @@ Edit
     }
   }
 ]
+```
 You can freely add or remove questions as long as they follow this structure.
 
-🧠 Scoring Logic
-Each answer adds a point to a specific profession.
+#🧠 Scoring Logic
+1. Each answer adds a point to a specific profession.
+2. The profession with the highest score is shown as the final result.
+3. In the event of a tie, the first profession (by order of appearance) is selected — no randomness.
 
-The profession with the highest score is shown as the final result.
+# 📸 Preview   
+![image](https://github.com/user-attachments/assets/3dba7567-4ae1-44e6-b24d-b5f56b318c9b)
 
-In the event of a tie, the first profession (by order of appearance) is selected — no randomness.
+Result
+![image](https://github.com/user-attachments/assets/4f1619e1-5359-4dbb-9190-29b12655c10a)
 
-📸 Preview
-(You can add a screenshot or GIF of the app UI here)
-
-    
