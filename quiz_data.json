@@ -1,0 +1,32 @@
+[
+  {
+    "question": "Kamu lebih suka kerja di waktu...",
+    "information": "Waktu kerja favoritmu bisa menentukan gaya kerja yang cocok.",
+    "options": {
+      "Pagi hari, biar produktif": "Data Scientist",
+      "Siang hari, santai tapi pasti": "Designer",
+      "Malam, waktu otak encer": "Programmer",
+      "Terserah, yang penting deadline kelar": "Startup Founder"
+    }
+  },
+  {
+    "question": "Minuman favorit saat kerja?",
+    "information": "Minuman bisa memengaruhi mood dan vibes kamu.",
+    "options": {
+      "Kopi hitam": "Startup Founder",
+      "Teh manis": "Designer",
+      "Air putih aja": "Data Scientist",
+      "Minuman energi kaleng": "Programmer"
+    }
+  },
+  {
+    "question": "Kalau dikasih tugas, kamu akan...",
+    "information": "Cara kamu menghadapi masalah itu penting.",
+    "options": {
+      "Langsung tulis flow dan logic-nya": "Programmer",
+      "Buat sketsa visual dulu": "Designer",
+      "Cari data referensi dan analisis dulu": "Data Scientist",
+      "Tanya dulu siapa yang bisa bantu": "Startup Founder"
+    }
+  }
+]
