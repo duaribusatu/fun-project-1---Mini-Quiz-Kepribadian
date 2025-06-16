@@ -11,7 +11,7 @@ A fun and interactive quiz app built using Streamlit to help users discover whic
 
 # 🗂️ File Structure
 ```bash
-├── kuis_profesi.py        # Main Streamlit app
+├── app.py                 # Main Streamlit app
 ├── quiz_data.json         # Quiz data (questions and options)
 └── README.md              # This documentation
 ```
@@ -19,8 +19,8 @@ A fun and interactive quiz app built using Streamlit to help users discover whic
 # 🔧 How to Run
 1. Clone the repository
 ```bash
-git clone https://github.com/username/kuis-profesi-dandi.git
-cd kuis-profesi-dandi
+git clone https://github.com/duaribusatu/fun-project-1---Mini-Quiz-Kepribadian
+cd fun-project-1---Mini-Quiz-Kepribadian
 ```
 
 2. Install dependencies
